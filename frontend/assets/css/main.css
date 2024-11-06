@@ -116,8 +116,13 @@ img {
     font-size: 18px;
     letter-spacing: 3px;
     color: #000;
-    display: flex;
     align-items: center;
+}
+.content-desktop {
+    display: flex;
+}
+.content-mobile {
+    display: none;
 }
 .ds-logo:hover {
     color: #000;
@@ -451,8 +456,11 @@ span.ds-department {
         padding-left: 10px;
         padding-right: 10px;
     }
-    .ds-logo {
-        font-size: 0;
+    .content-desktop {
+        display: none;
+    }
+    .content-mobile {
+        display: flex;
     }
     .ds-banner figure {
         padding: 30px 0;
