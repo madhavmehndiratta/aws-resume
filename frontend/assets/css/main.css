@@ -445,7 +445,7 @@ span.ds-department {
 @media (max-width: 768px) {
     .ds-header,
     .ds-header.ds-fixed-header {
-        padding: 15px 0;
+        padding: 20px 0;
     }
     .ds-banner,
     .ds-about-section,
@@ -455,6 +455,10 @@ span.ds-department {
     .ds-work-details-section {
         padding-left: 10px;
         padding-right: 10px;
+    }
+    .ds-logo {
+        font-size: 22px;
+        padding-left: 10px;
     }
     .content-desktop {
         display: none;
