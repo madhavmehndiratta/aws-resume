@@ -443,9 +443,11 @@ span.ds-department {
  Responsive XS Style @media (max-width: 767px)
 -------------------------------------------------------------------------------*/
 @media (max-width: 768px) {
-    .ds-header,
-    .ds-header.ds-fixed-header {
+    .ds-header {
         padding: 20px 0;
+    }
+    .ds-header.ds-fixed-header {
+        padding: 15px 0;
     }
     .ds-banner,
     .ds-about-section,
